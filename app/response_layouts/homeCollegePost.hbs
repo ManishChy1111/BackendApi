@@ -1,0 +1,15 @@
+{{#each datas}}
+    <div class="col-md-6">
+        <div class="probootstrap-service-2">
+
+            <div class="text">
+                <h3> {{this.college_name}}</h3>
+                <span class="probootstrap-meta"><i class="icon-map-pin"></i> {{this.location}}</span>
+                <br>
+                <p><a href="./college-single.html?id={{this.id}}" class="btn btn-primary">Enroll now</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+{{/each}}
